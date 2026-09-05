@@ -45,7 +45,7 @@ La infraestructura está formada por tres sistemas, distribuidos en dos segmento
 
 ## El informe de auditoría
 
-La pieza central de este proyecto es un **informe de auditoría de seguridad** que traduce el trabajo técnico en un documento orientado a riesgo, impacto y remediación — el mismo tipo de entregable que se produce en una auditoría profesional real.
+La pieza central de este proyecto es un **informe de auditoría de seguridad** que traduce el trabajo técnico en un documento orientado a riesgo, impacto y remediación.
 
 El informe está estructurado en:
 
