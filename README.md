@@ -12,7 +12,7 @@ El proyecto no se limita a explotar máquinas vulnerables: incluye la elaboraci�
 
 La infraestructura está formada por tres sistemas, distribuidos en dos segmentos de red. FALL tiene conectividad con ambos segmentos y actúa como punto de pivoting hacia la red interna, donde reside DOC.
 
-![[WriteUp/images/infrastructure.png]]
+![](WriteUp/images/infrastructure.png)
 
 |Sistema|Origen|Rol|
 |---|---|---|
@@ -52,7 +52,7 @@ Junto al informe, el repositorio incluye **write-ups técnicos** de cada sistema
 
 | Recurso                       | Enlace                                                           |
 | ----------------------------- | ---------------------------------------------------------------- |
-| 📄 Informe de auditoría (PDF) | [Informe_Auditoria_GoodTech.pdf](WriteUp/images/Informe_Auditoria_GoodTech.pdf) |
+| 📄 Informe de auditoría (PDF) | [Informe_Auditoria_GoodTech.pdf](Informe_Auditoria_GoodTech.pdf) |
 
 
 **Write-ups — Red externa (192.168.56.0/24)**
