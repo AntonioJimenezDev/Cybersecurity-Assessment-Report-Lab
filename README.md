@@ -12,7 +12,7 @@ El proyecto no se limita a explotar máquinas vulnerables: incluye la elaboraci�
 
 La infraestructura está formada por tres sistemas, distribuidos en dos segmentos de red. FALL tiene conectividad con ambos segmentos y actúa como punto de pivoting hacia la red interna, donde reside DOC.
 
-![[../images/infrastructure.png]]
+![[WriteUp/images/infrastructure.png]]
 
 |Sistema|Origen|Rol|
 |---|---|---|
