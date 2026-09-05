@@ -12,22 +12,7 @@ El proyecto no se limita a explotar máquinas vulnerables: incluye la elaboraci�
 
 La infraestructura está formada por tres sistemas, distribuidos en dos segmentos de red. FALL tiene conectividad con ambos segmentos y actúa como punto de pivoting hacia la red interna, donde reside DOC.
 
-```
-RED EXTERNA
-192.168.56.0/24
-
-Kali
-├── FALL
-└── HOSTING
-
-FALL
-└── Pivoting
-    ↓
-
-RED INTERNA
-192.168.57.0/24
-└── DOC
-```
+![[WriteUp/images/infrastructure.png]]
 
 |Sistema|Origen|Rol|
 |---|---|---|
