@@ -1,6 +1,6 @@
 # Cybersecurity Assessment Report Lab
 
-Proyecto práctico de auditoría de seguridad y pentesting sobre una infraestructura empresarial simulada, desarrollada en un laboratorio propio.
+Proyecto práctico de auditoría de seguridad y pentesting sobre una infraestructura empresarial simulada (Good Tech Inc), desarrollada en un laboratorio propio.
 
 El ejercicio reproduce un test de intrusión de caja negra: se parte de una posición externa sin credenciales previas y, a través de una cadena de vulnerabilidades encadenadas, se alcanza el compromiso completo de la infraestructura, incluyendo pivoting hacia un segmento de red interno.
 
