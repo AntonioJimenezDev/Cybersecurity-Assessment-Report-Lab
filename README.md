@@ -15,12 +15,12 @@ El proyecto no se limita a explotar máquinas vulnerables, ya que su finalidad l
     4. Arquitectura de Red
 4. Resumen de Hallazgos
 5. Cadena de Ataque (Attack Path)
-    1. 5.1 Ruta FALL → DOC
-    2. 5.2 Ruta HOSTING
+    1. Ruta FALL → DOC
+    2. Ruta HOSTING
 6. Hallazgos Detallados
-    1. 6.1 Hallazgos en FALL (192.168.56.4)
-    2. 6.2 Hallazgos en DOC (192.168.57.4 — red interna)
-    3. 6.3 Hallazgos en HOSTING (192.168.56.8)
+    1. Hallazgos en FALL (192.168.56.4)
+    2. Hallazgos en DOC (192.168.57.4 — red interna)
+    3. Hallazgos en HOSTING (192.168.56.8)
 7. Recomendaciones Priorizadas
 8. Conclusión
 9. Herramientas Utilizadas
