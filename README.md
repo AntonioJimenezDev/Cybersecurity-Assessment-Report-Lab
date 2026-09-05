@@ -71,25 +71,27 @@ Junto al informe, el repositorio incluye **write-ups técnicos** de cada sistema
 
 ## Navegación del proyecto
 
-| Recurso                       | Enlace                                                           |
-| ----------------------------- | ---------------------------------------------------------------- |
-| 📄 Informe de auditoría (PDF) | [Informe_Auditoria_GoodTech.pdf](Informe_Auditoria_GoodTech.pdf) |
-
-
-**Write-ups — Red externa (192.168.56.0/24)**
-
-| # | Write-up |
+| Recurso | Enlace |
 |---|---|
-| 1 | [Host Discovery](WriteUp/192.168.56.0%2024/1%20-%20Host%20Discovery.md) |
-| 2 | [HOSTING (192.168.56.8)](WriteUp/192.168.56.0%2024/2%20-%20192.168.56.8%20-%20HOSTING.md) |
-| 3 | [FALL — Pivoting (192.168.56.4)](WriteUp/192.168.56.0%2024/3%20-%20192.168.56.4%20-%20FALL%20-%20Pivoting.md) |
+| 📄 **Informe de auditoría** (PDF) | [Informe_Auditoria_GoodTech.pdf](Informe_Auditoria_GoodTech.pdf) |
+| 🖼️ **Imágenes y evidencias** | [WriteUp/images/](WriteUp/images/) |
 
-**Write-ups — Red interna (192.168.57.0/24)**
+> Los write-ups están organizados por segmento de red, reflejando la propia segmentación de la infraestructura evaluada: la carpeta de la red externa documenta el reconocimiento inicial y el compromiso de FALL y HOSTING, mientras que la carpeta de la red interna recoge el descubrimiento y la explotación de DOC una vez alcanzado mediante pivoting.
 
-| # | Write-up |
-|---|---|
-| 1 | [Host Discovery](WriteUp/192.168.57.0%2024/1%20-%20Host%20Discovery.md) |
-| 2 | [DOC (192.168.57.4)](WriteUp/192.168.57.0%2024/2%20-%20192.168.57.4%20-%20DOC.md) |
+### 🌐 Write-ups — Red externa (192.168.56.0/24)
+
+| # | Write-up | Contenido |
+|---|---|---|
+| 1 | [🔎 Host Discovery](WriteUp/192.168.56.0%2024/1%20-%20Host%20Discovery.md) | Descubrimiento de hosts activos en la red externa |
+| 2 | [🖥️ HOSTING](WriteUp/192.168.56.0%2024/2%20-%20192.168.56.8%20-%20HOSTING.md) | Reconocimiento, explotación y escalada de privilegios (192.168.56.8) |
+| 3 | [🔀 FALL — Pivoting](WriteUp/192.168.56.0%2024/3%20-%20192.168.56.4%20-%20FALL%20-%20Pivoting.md) | Compromiso de FALL y establecimiento del pivoting hacia la red interna (192.168.56.4) |
+
+### 🔒 Write-ups — Red interna (192.168.57.0/24)
+
+| # | Write-up | Contenido |
+|---|---|---|
+| 1 | [🔎 Host Discovery](WriteUp/192.168.57.0%2024/1%20-%20Host%20Discovery.md) | Descubrimiento de hosts en la red interna, alcanzada vía pivoting |
+| 2 | [🖥️ DOC](WriteUp/192.168.57.0%2024/2%20-%20192.168.57.4%20-%20DOC.md) | Reconocimiento, explotación y escalada de privilegios (192.168.57.4) |
 
 Los write-ups están organizados por segmento de red, reflejando la propia segmentación de la infraestructura evaluada: la carpeta de la red externa documenta el reconocimiento inicial y el compromiso de FALL y HOSTING, mientras que la carpeta de la red interna recoge el descubrimiento y la explotación de DOC una vez alcanzado mediante pivoting.
 
