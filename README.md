@@ -1,10 +1,31 @@
 # Cybersecurity Assessment Report Lab
 
-Proyecto práctico de evaluación de seguridad y pentesting sobre una infraestructura empresarial simulada, desarrollada en un laboratorio propio con VirtualBox. El ejercicio reproduce un test de intrusión de caja negra: se parte de una posición externa sin credenciales previas y, a través de una cadena de vulnerabilidades encadenadas, se alcanza el compromiso completo de la infraestructura, incluyendo pivoting hacia un segmento de red interno.
+Proyecto práctico de auditoría de seguridad y pentesting sobre una infraestructura empresarial simulada, desarrollada en un laboratorio propio.
 
-El proyecto no se limita a explotar máquinas vulnerables: incluye la elaboración de un **informe profesional de evaluación de seguridad**, con la estructura y el rigor de un pentest real.
+El ejercicio reproduce un test de intrusión de caja negra: se parte de una posición externa sin credenciales previas y, a través de una cadena de vulnerabilidades encadenadas, se alcanza el compromiso completo de la infraestructura, incluyendo pivoting hacia un segmento de red interno.
 
-> **Reconocimiento → Enumeración → Explotación → Escalada → Post-explotación → Pivoting → Evaluación de la red interna → Análisis de riesgo → Reporting**
+El proyecto no se limita a explotar máquinas vulnerables, ya que su finalidad la elaboración de un **informe profesional de auditoría de seguridad** con el siguiente contenido:
+
+1. Resumen Ejecutivo
+2. Metodología de Valoración de Riesgo
+3. Alcance y Metodología
+    1. Objetivos
+    2. Alcance
+    3. Metodología
+    4. Arquitectura de Red
+4. Resumen de Hallazgos
+5. Cadena de Ataque (Attack Path)
+    1. 5.1 Ruta FALL → DOC
+    2. 5.2 Ruta HOSTING
+6. Hallazgos Detallados
+    1. 6.1 Hallazgos en FALL (192.168.56.4)
+    2. 6.2 Hallazgos en DOC (192.168.57.4 — red interna)
+    3. 6.3 Hallazgos en HOSTING (192.168.56.8)
+7. Recomendaciones Priorizadas
+8. Conclusión
+9. Herramientas Utilizadas
+
+> **Reconocimiento → Enumeración → Explotación → Post-explotación → Pivoting  → Reporting**
 
 ---
 
@@ -14,11 +35,11 @@ La infraestructura está formada por tres sistemas, distribuidos en dos segmento
 
 ![](WriteUp/images/infrastructure.png)
 
-|Sistema|Origen|Rol|
-|---|---|---|
-|**FALL**|VulnHub|Expuesto en red externa; dual-homed, punto de pivoting hacia la red interna|
-|**HOSTING**|HackMyVM|Expuesto en red externa|
-|**DOC**|HackMyVM|Red interna; accesible únicamente vía pivoting desde FALL|
+| Sistema     | Origen   | Rol                                                             |
+| ----------- | -------- | --------------------------------------------------------------- |
+| **FALL**    | VulnHub  | Expuesto en red externa. punto de pivoting hacia la red interna |
+| **HOSTING** | HackMyVM | Expuesto en red externa                                         |
+| **DOC**     | HackMyVM | Red interna; accesible únicamente vía pivoting desde FALL       |
 
 ---
 
