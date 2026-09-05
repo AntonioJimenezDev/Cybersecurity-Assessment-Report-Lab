@@ -69,11 +69,11 @@ Junto al informe, el repositorio incluye **write-ups técnicos** de cada sistema
 
 ---
 
-## Navegación del proyecto
+## 🧭 Navegación del proyecto
 
 | Recurso | Enlace |
 |---|---|
-| 📄 **Informe de auditoría** (PDF) | [Informe_Auditoria_GoodTech.pdf](Informe_Auditoria_GoodTech.pdf) |
+| 📄 **Informe de auditoría** (PDF) | [GoodTech_Security_Assessment_Report.pdf](GoodTech_Security_Assessment_Report.pdf) |
 | 🖼️ **Imágenes y evidencias** | [WriteUp/images/](WriteUp/images/) |
 
 > Los write-ups están organizados por segmento de red, reflejando la propia segmentación de la infraestructura evaluada: la carpeta de la red externa documenta el reconocimiento inicial y el compromiso de FALL y HOSTING, mientras que la carpeta de la red interna recoge el descubrimiento y la explotación de DOC una vez alcanzado mediante pivoting.
@@ -92,8 +92,6 @@ Junto al informe, el repositorio incluye **write-ups técnicos** de cada sistema
 |---|---|---|
 | 1 | [🔎 Host Discovery](WriteUp/192.168.57.0%2024/1%20-%20Host%20Discovery.md) | Descubrimiento de hosts en la red interna, alcanzada vía pivoting |
 | 2 | [🖥️ DOC](WriteUp/192.168.57.0%2024/2%20-%20192.168.57.4%20-%20DOC.md) | Reconocimiento, explotación y escalada de privilegios (192.168.57.4) |
-
-Los write-ups están organizados por segmento de red, reflejando la propia segmentación de la infraestructura evaluada: la carpeta de la red externa documenta el reconocimiento inicial y el compromiso de FALL y HOSTING, mientras que la carpeta de la red interna recoge el descubrimiento y la explotación de DOC una vez alcanzado mediante pivoting.
 
 ---
 
